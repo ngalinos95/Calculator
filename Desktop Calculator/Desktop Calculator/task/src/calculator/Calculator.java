@@ -12,7 +12,6 @@ public class Calculator extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 700);
         setLayout(null);
-        setVisible(true);
         JLabel EquationLabel=new JLabel();
         EquationLabel.setName("EquationLabel");
         EquationLabel.setBounds(25,70,450,40);
@@ -373,6 +372,6 @@ public class Calculator extends JFrame {
 
 
 
-
+        setVisible(true);
     }
 }
